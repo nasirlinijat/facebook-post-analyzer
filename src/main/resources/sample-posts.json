@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "id": "sample_1001",
+      "message": "Monday reset: write down your top 3 tasks before you open email or Slack. Small habit, big focus boost.",
+      "created_time": "2026-06-15T09:00:00+0000",
+      "likes": { "summary": { "total_count": 4 } },
+      "comments": { "summary": { "total_count": 1 } }
+    },
+    {
+      "id": "sample_1002",
+      "message": "Hot take: half of all meetings could've been a two-line message. What's your most pointless recurring meeting?",
+      "created_time": "2026-06-15T17:30:00+0000",
+      "likes": { "summary": { "total_count": 6 } },
+      "comments": { "summary": { "total_count": 2 } }
+    },
+    {
+      "id": "sample_1003",
+      "message": "Shortcut of the day: Cmd+Shift+T reopens the tab you just accidentally closed. You're welcome.",
+      "created_time": "2026-06-16T11:15:00+0000",
+      "likes": { "summary": { "total_count": 3 } },
+      "comments": { "summary": { "total_count": 0 } }
+    },
+    {
+      "id": "sample_1004",
+      "message": "What's the one VS Code (or browser) extension you can't live without? Drop it in the comments.",
+      "created_time": "2026-06-16T15:45:00+0000",
+      "likes": { "summary": { "total_count": 9 } },
+      "comments": { "summary": { "total_count": 4 } }
+    },
+    {
+      "id": "sample_1005",
+      "message": "Mid-week reminder: progress beats perfection. Ship the rough version, improve it later.",
+      "created_time": "2026-06-17T10:00:00+0000",
+      "likes": { "summary": { "total_count": 5 } },
+      "comments": { "summary": { "total_count": 1 } }
+    },
+    {
+      "id": "sample_1006",
+      "message": "Big milestone today — we just crossed 1,000 users! Thank you to everyone who's been along for the ride.",
+      "created_time": "2026-06-17T18:00:00+0000",
+      "likes": { "summary": { "total_count": 22 } },
+      "comments": { "summary": { "total_count": 8 } }
+    },
+    {
+      "id": "sample_1007",
+      "message": "TIL you can batch-rename files in Finder: select them all, right-click, Rename. Saved me 10 minutes today.",
+      "created_time": "2026-06-18T12:30:00+0000",
+      "likes": { "summary": { "total_count": 4 } },
+      "comments": { "summary": { "total_count": 1 } }
+    },
+    {
+      "id": "sample_1008",
+      "message": "Throwback to our very first prototype. Funny how far a rough idea can go when you keep iterating.",
+      "created_time": "2026-06-18T16:20:00+0000",
+      "likes": { "summary": { "total_count": 7 } },
+      "comments": { "summary": { "total_count": 3 } }
+    },
+    {
+      "id": "sample_1009",
+      "message": "Friday wins thread! Share one thing — big or small — that you shipped this week.",
+      "created_time": "2026-06-19T13:00:00+0000",
+      "likes": { "summary": { "total_count": 12 } },
+      "comments": { "summary": { "total_count": 6 } }
+    },
+    {
+      "id": "sample_1010",
+      "message": "Weekend reading: three solid articles on writing cleaner code. Links in the comments.",
+      "created_time": "2026-06-19T19:00:00+0000",
+      "likes": { "summary": { "total_count": 5 } },
+      "comments": { "summary": { "total_count": 2 } }
+    },
+    {
+      "id": "sample_1011",
+      "message": "Lazy Saturday energy: coffee, a quiet room, and one stubborn bug.",
+      "created_time": "2026-06-20T11:00:00+0000",
+      "likes": { "summary": { "total_count": 3 } },
+      "comments": { "summary": { "total_count": 0 } }
+    },
+    {
+      "id": "sample_1012",
+      "message": "Planning the week ahead. What's the one thing you most want to build or finish?",
+      "created_time": "2026-06-21T18:45:00+0000",
+      "likes": { "summary": { "total_count": 6 } },
+      "comments": { "summary": { "total_count": 2 } }
+    }
+  ]
+}
