@@ -4,13 +4,11 @@ A lightweight Spring Boot application that fetches the last 20 posts from a Meta
 
 ## Links (Deliverables)
 
-- **GitHub repository:** `https://github.com/<your-username>/<your-repo>`
-- **Railway deploy:** `https://your-railway-app.up.railway.app/`
-  - Report page (UI): `https://your-railway-app.up.railway.app/`
-  - Raw JSON: `https://your-railway-app.up.railway.app/api/report`
-  - Swagger UI: `https://your-railway-app.up.railway.app/swagger-ui.html`
-
-> Replace the placeholders with your real GitHub and Railway URLs once published.
+- **GitHub repository:** `https://github.com/nasirlinijat/facebook-post-analyzer`
+- **Railway deploy:** `https://facebook-post-analyzer.up.railway.app/`
+  - Report page (UI): `https://facebook-post-analyzer.up.railway.app/`
+  - Raw JSON: `https://facebook-post-analyzer.up.railway.app/api/report`
+  - Swagger UI: `https://facebook-post-analyzer.up.railway.app/swagger-ui.html`
 
 ## Tech Stack
 
@@ -31,8 +29,8 @@ A lightweight Spring Boot application that fetches the last 20 posts from a Meta
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
-cd meta-analysis
+git clone https://github.com/nasirlinijat/facebook-post-analyzer.git
+cd facebook-post-analyzer
 ```
 
 2. Create a `.env` file in the project root (use the template below):
@@ -165,9 +163,11 @@ This keeps the Railway deployment working for reviewers even if a Page token lap
 ## Railway Deployment
 
 1. Push the project to GitHub (ensure `.env` is not committed).
-2. Create a Railway project linked to the repository.
+2. Create a Railway project linked to the repository (Root Directory = repository root).
 3. Set environment variables in Railway: `META_ACCESS_TOKEN`, `META_PAGE_ID`, and optionally `META_API_VERSION`.
-4. Railway builds with Gradle and injects a `PORT` environment variable; the app binds to it automatically. `system.properties` pins the build to Java 21.
+4. Railway detects the included **`Dockerfile`**, which builds the app on **JDK 21** and runs the executable jar (`build/libs/app.jar`). Railway injects a `PORT` environment variable and the app binds to it automatically (`server.port=${PORT:8080}`).
+
+> If the Meta variables are absent or the live Page returns no posts, the app still serves a meaningful report from the built-in sample dataset (see *Data Source & Sample Fallback*).
 
 ## Requirements Coverage
 
