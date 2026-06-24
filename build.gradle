@@ -31,3 +31,13 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+// Produce a single, predictably-named executable jar (build/libs/app.jar) for deployment.
+bootJar {
+    archiveFileName = 'app.jar'
+}
+
+// We only ship the Spring Boot executable jar, not the plain library jar.
+tasks.named('jar') {
+    enabled = false
+}

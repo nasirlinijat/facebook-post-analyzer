@@ -1,0 +1,9 @@
+build/
+.gradle/
+.idea/
+*.iml
+.git/
+.env
+*.log
+.DS_Store
+get-meta-token.sh
